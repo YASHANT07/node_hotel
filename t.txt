@@ -1,0 +1,104 @@
+// console.log('server is running');
+
+
+// var add= (a,b)=>a+b;
+
+// var res = add(2,3);
+// console.log(res);
+
+
+//callback
+
+// function call()
+// {
+//     console.log("prince is calling a function");
+
+// }
+
+// const add = function (a,b,call)
+// {
+//     var res = a+b;
+//     console.log("result"+res);
+
+//     call();
+// }
+
+// add(3 ,4 ,call);
+
+/// file system
+
+// var fs = require('fs');
+// var os = require('os');
+
+// var user = os.userInfo();
+// console.log(user);
+
+
+// fs.appendFile('greeting.txt','hi'+user.username+'!' ,()=>{
+//     console.log("file is created");
+// });
+
+
+//importing file
+
+// const notes = require('./notes.js');
+
+// console.log('server page is shown');
+//   var age = notes.age;
+
+// console.log(age);
+
+//lodash
+//in built library give us various fns to perform on a array of anything
+
+
+/// express
+// const express = require('express');
+// const app = express();
+
+// app.get('/' ,(req,res)=>{
+//     res.send('hello world');
+// })
+
+
+// app.get('/local' ,(req,res)=>{
+//     res.send('hello world again');
+// })
+
+// app.listen(3001, ()=>{
+//     console.log('app is running on 3000');
+// })
+  
+
+
+
+
+
+
+// app.post('/person',(req,res)=>{
+   
+    
+//     const data =  req.body
+
+//      const newPerson = new Person(data);
+
+//     // newPerson.name=data.name;
+//     //newperson.age = data.age;
+//     //same for all schema
+//     //instead of wrii=ting this pass the data 
+
+//     newPerson.save((error,savedperson)=>{
+//         if(error)
+//         {
+//             console.log('error on saving person:',error);
+//             res.status(500).json({error:'internal server error 4'})
+//         }
+//         else{
+//             console.log('data saved successfully');
+//             res.status(200).json(savedperson);
+//         }
+//     })
+
+
+
+// })
